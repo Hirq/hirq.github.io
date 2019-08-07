@@ -1,0 +1,52 @@
+html,body{
+    background-image: linear-gradient(to bottom right, #28927b, #26a337 );
+    min-height: 100%;
+}
+.container{
+    padding-left: 40px;
+    background-color: transparent;
+    margin-top: 30px;
+    height: 600px;
+    min-width: 90%;
+    color:black;
+    
+}
+.list-group-item{
+    color:blue;
+}
+.container_foto{
+    height: 550px;
+    background-color: white;
+}
+#name{
+    text-align: center;
+    font-size: 35px;
+}
+#profesion{
+    text-align: center;
+    font-size: 25px;
+    color: #28927b;
+}
+.container_others{
+    margin-top: 10px;
+    height: 520px;
+    background-color: white;
+}
+.row >.col-2{
+
+    padding-left: 55px;
+    padding-right: 5px;
+}
+.row >.col-2 >.list-group >.list-group-item{
+    text-align: center;
+    padding-left: 15px;
+}
+
+.row >.col-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row >.col-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
