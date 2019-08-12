@@ -1,52 +1,136 @@
 html,body{
-    background-image: linear-gradient(to bottom right, #28927b, #26a337 );
+    background-image: linear-gradient(to bottom right, #28927b, #228b30 );
     min-height: 100%;
 }
+hr.line {
+    border: 1px solid #28927b;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .container{
     padding-left: 40px;
     background-color: transparent;
-    margin-top: 30px;
+    margin-top: 10px;
     height: 600px;
     min-width: 90%;
     color:black;
-    
 }
-.list-group-item{
-    color:blue;
+
+.row >.col-1{
+    padding-left: 5px;
+    padding-right: 5px;
 }
+.row >.col-1 >.list-group >.list-group-item{
+    text-align: center;
+    padding-left: 0px;
+
+}
+.row >.col-1 >.list-group >.list-group-item > .fa {
+    text-align: center;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.row >.col-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row >.col-8{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Left Container */
+
 .container_foto{
     height: 550px;
     background-color: white;
+    border-radius: 5px;
 }
+
+.image_resize img {
+    max-width: 100%;
+    max-height: 100%;
+    top: 0%;
+    width: 330px; 
+    height: 300px;
+    background-size: cover;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
 #name{
-    text-align: center;
-    font-size: 35px;
-}
-#profesion{
+    margin-top: 10px;
     text-align: center;
     font-size: 25px;
-    color: #28927b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#profession{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #228b30;
+}
+
+
+/*Container right*/
 .container_others{
     margin-top: 10px;
     height: 520px;
     background-color: white;
+    border-radius: 5px;
 }
-.row >.col-2{
 
-    padding-left: 55px;
-    padding-right: 5px;
-}
-.row >.col-2 >.list-group >.list-group-item{
+/* Resume - Życiorys */
+#title{
     text-align: center;
-    padding-left: 15px;
+    padding-top: 15px;
+    color:#28927b;
 }
 
-.row >.col-4{
-    padding-left: 0px;
-    padding-right: 0px;
+#text{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: 'Poppins'
+
 }
-.row >.col-6{
-    padding-left: 0px;
-    padding-right: 0px;
+
+#word{
+    background-color: #28927b;
+    padding: 4px;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 0;
+}
+
+#life{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+/* Projects */
+.row >.col-6 > .container_others > .tab-content >.tab-pane >.list-group  {
+    text-align: center;
+    padding: 3px;
+}
+
+.row >.col-6 > .container_others > .tab-content >.tab-pane >.tab-content  {
+    text-align: justify;
+    padding: 5px;
+}
+
+#gallery img {
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 120px; 
+    height: 350px;
+
+    border-radius: 5px;
 }
