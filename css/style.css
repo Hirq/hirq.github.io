@@ -1,6 +1,7 @@
 html,body{
     background-image: linear-gradient(to bottom right, #28927b, #228b30 );
     min-height: 100%;
+    
 }
 hr.line {
     border: 1px solid #28927b;
@@ -69,9 +70,32 @@ hr.line {
     text-align: center;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #228b30;
+    color: #0dd13e;
+}
+#icons{
+   
+    text-align: center;
+}
+.links{
+    display: inline-block;
+}
+.links > a{
+    color:#141313;
 }
 
+.links:hover > a{
+    color:#0dd13e;
+}
+
+#word_left{
+    color: #0dd13e;
+    padding: 4px;
+    border-radius: 8px;
+    line-height: 30px;
+    margin: 0;
+    border: 2px solid #0dd13e;
+
+}
 
 /*Container right*/
 .container_others{
@@ -114,6 +138,43 @@ hr.line {
     text-align: center;
 }
 
+/*O mnie*/
+.container_resume{
+    height: 55%;
+}
+ul {
+    list-style: none;
+    margin-left: 0px;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: #28927b;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+#title_character{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: 'Poppins';
+    color:#28927b;
+    font-weight: bold;
+}
+
+#character{
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: 'Poppins'
+}
 /* Projects */
 .row >.col-6 > .container_others > .tab-content >.tab-pane >.list-group  {
     text-align: center;
